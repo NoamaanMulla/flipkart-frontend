@@ -1,0 +1,57 @@
+.main-para {
+    margin: 20px 10px;
+}
+
+.main-para h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-para p {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.main-para a {
+    text-decoration: none;
+}
+
+.product-info {
+    display: flex;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.product-info p, .product-info td {
+    margin: 15px 25px;
+    color: rgb(120, 120, 120);
+    font-size: 12px;
+}
+
+.product-info h3 {
+    margin: 20px 25px;
+    color: rgb(130, 130, 130);
+    font-size: 15px;
+}
+
+.product-info a {
+    text-decoration: none;
+}
+
+.product-about {
+    width: 70%;
+}
+
+.product-info table tr {
+    border-top: 1px solid black;
+}
+
+.product-info tr td:first-of-type {
+    width: 80%;
+}
+
+.product-info td, .product-info th {
+    padding: 10px;
+}
