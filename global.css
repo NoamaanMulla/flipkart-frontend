@@ -5,7 +5,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a {color: rgb(40, 116, 240);}
+a {color: rgb(40, 116, 240); text-decoration: none;}
 
 body {background-color: rgb(239,241,244);}
 
