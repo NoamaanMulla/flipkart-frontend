@@ -15,11 +15,16 @@ more_less.onclick = () => {
     }
 }
 
-let assured = document.querySelector('.assured-radio-check');
+// let assured = document.querySelector('.assured-radio-check');
 
-assured.onclick = () => {
-    if(assured.style.backgroundColor == 'rgb(40, 116, 240)')
-    assured.style.backgroundColor = 'rgb(255, 255, 255)';
-    else
-    assured.style.backgroundColor = 'rgb(40, 116, 240)';
+// assured.onclick = () => {
+//     assured.style.backgroundColor == 'rgb(40, 116, 240)' ? assured.style.backgroundColor = 'rgb(255, 255, 255)' : assured.style.backgroundColor = 'rgb(40, 116, 240)';
+// }
+
+changeColor = (target) => {
+    target.style.backgroundColor == 'rgb(40, 116, 240)' ? target.style.backgroundColor = 'rgb(255, 255, 255)' : target.style.backgroundColor = 'rgb(40, 116, 240)';
+}
+
+dropdown = (target) => {
+    target.parentElement.nextElementSibling.style.display == 'block' ? target.parentElement.nextElementSibling.style.display = 'none' : target.parentElement.nextElementSibling.style.display = 'block';
 }
