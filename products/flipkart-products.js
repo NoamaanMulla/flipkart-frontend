@@ -15,4 +15,11 @@ more_less.onclick = () => {
     }
 }
 
-// document.getElementsByClassName('more-less-button')[0].style.backgroundColor = "black";
+let assured = document.querySelector('.assured-radio-check');
+
+assured.onclick = () => {
+    if(assured.style.backgroundColor == 'rgb(40, 116, 240)')
+    assured.style.backgroundColor = 'rgb(255, 255, 255)';
+    else
+    assured.style.backgroundColor = 'rgb(40, 116, 240)';
+}

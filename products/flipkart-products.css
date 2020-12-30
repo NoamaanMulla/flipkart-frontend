@@ -102,6 +102,27 @@
     outline: none;
 }
 
+.flipkart-assured {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 0 12px 10px;
+}
+
+.assured-radio-check {
+    width: 15px;
+    border: 1px solid rgb(150, 150, 150);
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 200ms;
+    margin: 0 5px 0 10px;
+}
+
+.flipkart-assured img {
+    width: 5rem;
+    margin: 0 10px;
+}
+
 .product-info {
     display: flex;
     padding: 10px 0;
