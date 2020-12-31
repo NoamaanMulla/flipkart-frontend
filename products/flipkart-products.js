@@ -22,3 +22,15 @@ changeColor = (target) => {
 dropdown = (target) => {
     target.parentElement.nextElementSibling.style.display == 'block' ? target.parentElement.nextElementSibling.style.display = 'none' : target.parentElement.nextElementSibling.style.display = 'block';
 }
+
+next = (target) => {
+    target.parentElement.parentElement.previousElementSibling.style.transform = 'translateX(-44vw)';
+    // next[0].style.display = 'none';
+    // previous[0].style.display = 'inline-block';
+}
+
+previous = (target) => {
+    target.parentElement.parentElement.previousElementSibling.style.transform = 'translateX(0vw)';
+    // previous[0].style.display = 'none';
+    // next[0].style.display = 'inline-block';
+}
