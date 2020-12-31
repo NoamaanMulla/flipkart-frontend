@@ -15,12 +15,6 @@ more_less.onclick = () => {
     }
 }
 
-// let assured = document.querySelector('.assured-radio-check');
-
-// assured.onclick = () => {
-//     assured.style.backgroundColor == 'rgb(40, 116, 240)' ? assured.style.backgroundColor = 'rgb(255, 255, 255)' : assured.style.backgroundColor = 'rgb(40, 116, 240)';
-// }
-
 changeColor = (target) => {
     target.style.backgroundColor == 'rgb(40, 116, 240)' ? target.style.backgroundColor = 'rgb(255, 255, 255)' : target.style.backgroundColor = 'rgb(40, 116, 240)';
 }
