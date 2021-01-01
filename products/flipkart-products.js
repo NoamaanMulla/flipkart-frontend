@@ -38,15 +38,7 @@ Item.forEach(element => {
     element.onclick = (e) => {
         let tgt = e.target;
         let possibleParent = tgt.closest("span")
-        if (possibleParent) tgt = possibleParent; // we clicked the <i>
+        if (possibleParent) tgt = possibleParent;
         e.target.closest('div').previousElementSibling.style.transform = tgt.id === "prev" ? 'translateX(-44vw)' : 'translateX(0vw)';
     }
 });
-
-// document.getElementsByClassName("nav-btns")[0].addEventListener("click", function(e) {  
-//   let shopItems = document.querySelector(".shop_items");
-//   let tgt = e.target;
-//   let possibleParent = tgt.closest("span")
-//   if (possibleParent) tgt = possibleParent; // we clicked the <i>
-//   shopItems.style.transform = tgt.id === "prev" ? 'translateX(-44vw)' : 'translateX(0vw)';
-// })
