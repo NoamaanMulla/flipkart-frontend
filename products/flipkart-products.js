@@ -23,14 +23,24 @@ dropdown = (target) => {
     target.parentElement.nextElementSibling.style.display == 'block' ? target.parentElement.nextElementSibling.style.display = 'none' : target.parentElement.nextElementSibling.style.display = 'block';
 }
 
-next = (target) => {
-    target.parentElement.parentElement.previousElementSibling.style.transform = 'translateX(-44vw)';
-    // next[0].style.display = 'none';
-    // previous[0].style.display = 'inline-block';
-}
+let Item = [
+    document.querySelectorAll(".nav-btns")[0],
+    document.querySelectorAll(".nav-btns")[1]
+]
 
-previous = (target) => {
-    target.parentElement.parentElement.previousElementSibling.style.transform = 'translateX(0vw)';
-    // previous[0].style.display = 'none';
-    // next[0].style.display = 'inline-block';
-}
+Item.forEach(element => {
+    element.onclick = (e) => {
+        let tgt = e.target;
+        let possibleParent = tgt.closest("span")
+        if (possibleParent) tgt = possibleParent; // we clicked the <i>
+        e.target.closest('div').previousElementSibling.style.transform = tgt.id === "prev" ? 'translateX(-44vw)' : 'translateX(0vw)';
+    }
+});
+
+// document.getElementsByClassName("nav-btns")[0].addEventListener("click", function(e) {  
+//   let shopItems = document.querySelector(".shop_items");
+//   let tgt = e.target;
+//   let possibleParent = tgt.closest("span")
+//   if (possibleParent) tgt = possibleParent; // we clicked the <i>
+//   shopItems.style.transform = tgt.id === "prev" ? 'translateX(-44vw)' : 'translateX(0vw)';
+// })
