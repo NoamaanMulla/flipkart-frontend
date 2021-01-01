@@ -25,7 +25,13 @@ dropdown = (target) => {
 
 let Item = [
     document.querySelectorAll(".nav-btns")[0],
-    document.querySelectorAll(".nav-btns")[1]
+    document.querySelectorAll(".nav-btns")[1],
+    document.querySelectorAll(".nav-btns")[2],
+    document.querySelectorAll(".nav-btns")[3],
+    document.querySelectorAll(".nav-btns")[4],
+    document.querySelectorAll(".nav-btns")[5],
+    document.querySelectorAll(".nav-btns")[6],
+    document.querySelectorAll(".nav-btns")[7]
 ]
 
 Item.forEach(element => {
