@@ -39,6 +39,19 @@ Item.forEach(element => {
         let tgt = e.target;
         let possibleParent = tgt.closest("span")
         if (possibleParent) tgt = possibleParent;
-        e.target.closest('div').previousElementSibling.style.transform = tgt.id === "prev" ? 'translateX(-44vw)' : 'translateX(0vw)';
+        e.target.closest('div').previousElementSibling.style.transform = tgt.id === "prev" ? 'translateX(-15vw)' : 'translateX(2vw)';
     }
 });
+
+let shop_products = document.querySelectorAll('.product-display-area .items');
+
+shop_products.forEach(element => {
+    element.addEventListener('mouseover', (e) => {
+        items = e.target.closest('.items');
+        items.children[1].children[0].style.color = 'rgb(40, 116, 240)';
+    })
+    element.addEventListener('mouseout', (e) => {
+        items = e.target.closest('.items');
+        items.children[1].children[0].style.color = 'rgb(0, 0, 0)';
+    })
+ });
