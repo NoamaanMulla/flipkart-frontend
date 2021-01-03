@@ -23,23 +23,28 @@ dropdown = (target) => {
     target.parentElement.nextElementSibling.style.display == 'block' ? target.parentElement.nextElementSibling.style.display = 'none' : target.parentElement.nextElementSibling.style.display = 'block';
 }
 
-let Item = [
-    document.querySelectorAll(".nav-btns")[0],
-    document.querySelectorAll(".nav-btns")[1],
-    document.querySelectorAll(".nav-btns")[2],
-    document.querySelectorAll(".nav-btns")[3],
-    document.querySelectorAll(".nav-btns")[4],
-    document.querySelectorAll(".nav-btns")[5],
-    document.querySelectorAll(".nav-btns")[6],
-    document.querySelectorAll(".nav-btns")[7]
-]
+let Item = document.querySelectorAll(".nav-btns");
+
+window.onload = () => {
+    Item.forEach(element => {
+        element.children[0].style.display = "none";
+    });
+}
 
 Item.forEach(element => {
     element.onclick = (e) => {
         let tgt = e.target;
-        let possibleParent = tgt.closest("span")
+        let possibleParent = tgt.closest("span");
         if (possibleParent) tgt = possibleParent;
         e.target.closest('div').previousElementSibling.style.transform = tgt.id === "prev" ? 'translateX(-15vw)' : 'translateX(2vw)';
+        if (tgt.style.display == "none") 
+            tgt.style.display = "block"
+        else
+            tgt.style.display = "none"
+        if(tgt.className == "item_carousel_right_arrow")
+            tgt.previousElementSibling.style.display = "block";
+        else
+            tgt.nextElementSibling.style.display = "block";
     }
 });
 
@@ -49,9 +54,9 @@ shop_products.forEach(element => {
     element.addEventListener('mouseover', (e) => {
         items = e.target.closest('.items');
         items.children[1].children[0].style.color = 'rgb(40, 116, 240)';
-    })
+    });
     element.addEventListener('mouseout', (e) => {
         items = e.target.closest('.items');
         items.children[1].children[0].style.color = 'rgb(0, 0, 0)';
-    })
+    });
  });

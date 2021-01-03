@@ -260,6 +260,7 @@
 .shop_items .items .item_info p:last-of-type span:nth-child(3) {font-weight: 500;}
 
 .item_carousel_left_arrow {
+    display: block;
     position: absolute;
     top: 35%;
     padding: 50px 20px;
@@ -271,6 +272,7 @@
 }
 
 .item_carousel_right_arrow {
+    display: block;
     right: 0;
     position: absolute;
     top: 35%;
