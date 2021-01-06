@@ -23,7 +23,7 @@
     width: 13rem;
     overflow: hidden;
     margin: 10px;
-    transform: translateY(-179%);
+    transform: translateY(-258%);
 }
 
 .product-filter .filter-head h2 {
@@ -279,9 +279,122 @@
     padding: 50px 20px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    border: 1px solid rgb(209,211,213);
+    border: 1px solid rgb(209, 211, 213);
     background-color: rgb(255, 255, 255);
     cursor: pointer;
+}
+
+.popular-reviews {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.popular-reviews .popular-review-head p {
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 2.5rem;
+}
+
+.popular-product {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+
+.popular-product-name a {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 3px 0;
+    display: block;
+}
+
+.popular-product-name a:hover {
+    color: rgb(40, 116, 240);
+}
+
+.popular-product-rating span:first-of-type {
+    background-color: rgb(56, 142, 60);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.popular-product-rating {
+    padding: 3px 0;
+}
+
+.popular-product-rating span:last-of-type {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(135, 135, 135);
+    padding-left: 5px;
+}
+
+.popular-product-price span:first-of-type {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.popular-product-price span:last-of-type {
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
+.popular-product-price {
+    padding: 5px 0;
+}
+
+.popular-product-description p {
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.user-review {
+    width: 15rem;
+}
+
+.user-review-head p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(135, 135, 135);
+}
+
+.user-review-rating span:first-of-type {
+    background-color: rgb(56,142,60);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.user-review-rating span:nth-child(2) {
+    font-weight: 500;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.user-review-rating p {
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+.user-review-rating {
+    padding: 5px 0;
+}
+
+.user-info span {
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
 }
 
 .product-info {
