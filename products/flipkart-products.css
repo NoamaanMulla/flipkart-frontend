@@ -1,11 +1,6 @@
-.main-para {
-    margin: 20px 10px;
-}
+.main-para {margin: 20px 10px;}
 
-.main-para h3 {
-    font-size: 18px;
-    font-weight: 500;
-}
+.main-para h3 {font-size: 18px; font-weight: 500;}
 
 .main-para p {
     color: rgb(100, 100, 100);
@@ -13,9 +8,7 @@
     margin: 10px 0;
 }
 
-.main-para a {
-    text-decoration: none;
-}
+.main-para a {text-decoration: none;}
 
 .product-filter {
     background-color: rgb(255, 255, 255);
@@ -33,10 +26,7 @@
     font-weight: 500;
 }
 
-.product-filter .filter-categories {
-    padding-top: 1rem;
-    border-bottom: 1px solid rgb(221, 221, 221);
-}
+.product-filter .filter-categories {padding-top: 1rem; border-bottom: 1px solid rgb(221, 221, 221);}
 
 .product-filter .filter-categories > p {
     font-size: 14px;
@@ -50,9 +40,7 @@
     padding-bottom: 15px;
 }
 
-.product-filter .filter-categories ul li {
-    display: block;
-}
+.product-filter .filter-categories ul li {display: block;}
 
 .product-filter .filter-categories ul li a {
     font-size: 14px;
@@ -72,15 +60,8 @@
     cursor: pointer;
 }
 
-.product-filter .filter-categories ul > li:last-of-type p::selection {
-    color: none;
-    background: none;
-}
-
-.price-filter {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgb(221, 221, 221);
-}
+.product-filter .filter-categories ul > li:last-of-type p::selection {color: none; background: none;}
+.price-filter {padding-bottom: 1rem; border-bottom: 1px solid rgb(221, 221, 221);}
 
 .price-filter-head p {
     font-weight: 600;
@@ -88,10 +69,7 @@
     padding: 10px;
 }
 
-.price-range {
-    display: flex;
-    justify-content: space-evenly;
-}
+.price-range {display: flex; justify-content: space-evenly;}
 
 .price-range select {
     border-radius: 0;
@@ -99,9 +77,7 @@
     font-size: 14px;
 }
 
-.price-range select:focus {
-    outline: none;
-}
+.price-range select:focus {outline: none;}
 
 .flipkart-assured {
     position: relative;
@@ -121,15 +97,8 @@
     cursor: pointer;
 }
 
-.flipkart-assured img {
-    width: 5rem;
-    margin: 0 10px;
-}
-
-.dropdown-filter {
-    border-bottom: 1px solid rgb(221, 221, 221);
-}
-
+.flipkart-assured img {width: 5rem; margin: 0 10px;}
+.dropdown-filter {border-bottom: 1px solid rgb(221, 221, 221);}
 .dropdown-filter-head {display: flex; justify-content: space-between;}
 
 .dropdown-filter-head p {
@@ -139,9 +108,7 @@
 }
 
 .dropdown-filter-head i {padding: 15px 20px 5px; cursor: pointer;}
-
 .dropdown-filter-head i::selection {color: none; background: none;}
-
 .dropdown-filter-options {padding-bottom: 15px;}
 
 .dropdown-filter-options .option {
@@ -160,7 +127,6 @@
 }
 
 .dropdown-filter-options p {font-size: 14px; margin: 2px;}
-
 .dropdown-filter-options p::selection {color: none; background: none;}
 
 .shop {
@@ -171,10 +137,7 @@
     margin-top: 0;
 }
 
-.product-display-area {
-    width: 81.5vw;
-    display: inline-block;
-}
+.product-display-area {width: 81.5vw; display: inline-block;}
 
 .shop_header {
     margin: 10px;
@@ -192,7 +155,6 @@
 }
 
 .shop_header p {margin-left: 30px;}
-
 .shop_header .clock {display: inline-block; margin-left: 30px;}
 
 .shop_header .clock img {
@@ -233,7 +195,6 @@
 }
 
 .shop_items .items img {display: block; margin: auto;}
-
 .shop_items .items .item_info {text-align: center; margin: auto;}
 
 .shop_items .items .item_info .product_company span:nth-child(1) {
@@ -284,10 +245,7 @@
     cursor: pointer;
 }
 
-.popular-reviews {
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
-}
+.popular-reviews {background-color: rgb(255, 255, 255); margin: 10px;}
 
 .popular-reviews .popular-review-head p {
     border-bottom: 1px solid rgb(240, 240, 240);
@@ -312,9 +270,7 @@
     display: block;
 }
 
-.popular-product-name a:hover {
-    color: rgb(40, 116, 240);
-}
+.popular-product-name a:hover {color: rgb(40, 116, 240);}
 
 .popular-product-rating span:first-of-type {
     background-color: rgb(56, 142, 60);
@@ -325,9 +281,7 @@
     font-size: 12px;
 }
 
-.popular-product-rating {
-    padding: 3px 0;
-}
+.popular-product-rating {padding: 3px 0;}
 
 .popular-product-rating span:last-of-type {
     font-weight: 500;
@@ -336,10 +290,7 @@
     padding-left: 5px;
 }
 
-.popular-product-price span:first-of-type {
-    font-size: 14px;
-    font-weight: 600;
-}
+.popular-product-price span:first-of-type {font-size: 14px; font-weight: 600;}
 
 .popular-product-price span:last-of-type {
     color: rgb(135, 135, 135);
@@ -348,18 +299,9 @@
     font-weight: 500;
 }
 
-.popular-product-price {
-    padding: 5px 0;
-}
-
-.popular-product-description p {
-    font-size: 14px;
-    padding: 5px 0;
-}
-
-.user-review {
-    width: 15rem;
-}
+.popular-product-price {padding: 5px 0;}
+.popular-product-description p {font-size: 14px; padding: 5px 0;}
+.user-review {width: 15rem;}
 
 .user-review-head p {
     font-size: 14px;
@@ -382,14 +324,8 @@
     padding-left: 10px;
 }
 
-.user-review-rating p {
-    font-size: 14px;
-    padding: 12px 0;
-}
-
-.user-review-rating {
-    padding: 5px 0;
-}
+.user-review-rating p {font-size: 14px; padding: 12px 0;}
+.user-review-rating {padding: 5px 0;}
 
 .user-info span {
     font-size: 13px;
@@ -416,27 +352,9 @@
     font-size: 15px;
 }
 
-.product-info a {
-    text-decoration: none;
-}
-
-.product-about {
-    width: 70%;
-}
-
-.product-info table {
-    border-collapse: collapse;
-    margin-right: 35px;
-}
-
-.product-info table tr {
-    border-top: 1px solid rgb(224,224,224);
-}
-
-.product-info tr td:first-of-type {
-    width: 80%;
-}
-
-.product-info td, .product-info th {
-    padding: 10px;
-}
+.product-info a {text-decoration: none;}
+.product-about {width: 70%;}
+.product-info table {border-collapse: collapse; margin-right: 35px;}
+.product-info table tr {border-top: 1px solid rgb(224,224,224);}
+.product-info tr td:first-of-type {width: 80%;}
+.product-info td, .product-info th {padding: 10px;}
