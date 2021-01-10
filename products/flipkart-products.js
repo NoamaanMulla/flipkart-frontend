@@ -59,4 +59,4 @@ shop_products.forEach(element => {
         items = e.target.closest('.items');
         items.children[1].children[0].style.color = 'rgb(0, 0, 0)';
     });
- });
+});

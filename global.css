@@ -179,6 +179,29 @@ header{
     margin: 13px 0px;
 }
 
+article {padding: 20px 40px;}
+
+article h3 {
+    margin: 15px 0px;
+    color: rgb(135,135,135);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+article ul {list-style: none;}
+
+article p, article li {font-size: 11px; color: rgb(158,163,146);}
+
+article p {margin: 15px 0px;}
+
+.top-stories {font-weight: 500;}
+
+.top-stories span:first-of-type {color: rgb(135,135,135);}
+
+.top-stories span:last-of-type {color: rgb(86,86,86);}
+
+article:first-of-type a {text-decoration: none; color: rgb(86,86,86);}
+
 footer {
     background-color: rgb(23,35,55);
     color: white;
