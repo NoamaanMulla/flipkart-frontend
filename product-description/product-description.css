@@ -35,13 +35,14 @@ article {
     font-weight: 500;
     padding: 10px 5px;
     font-size: 14px;
-    transition: 100ms border;
+    cursor: pointer;
+    /* transition: 100ms border; */
 }
 
-.sub-slider-categories span:hover {
+/* .sub-slider-categories span:hover {
     border-bottom: 3px solid rgb(40, 116, 240);
     color: rgb(40, 116, 240);
-}
+} */
 
 .shop_header h2 {
     display: inline-block;

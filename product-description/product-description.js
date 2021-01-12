@@ -1,10 +1,10 @@
-
 let Item = document.querySelectorAll(".nav-btns");
 
 window.onload = () => {
     Item.forEach(element => {
         element.children[0].style.display = "none";
     });
+    activeCategory();
 }
 
 Item.forEach(element => {
@@ -34,5 +34,38 @@ shop_products.forEach(element => {
     element.addEventListener('mouseout', (e) => {
         items = e.target.closest('.items');
         items.children[1].children[0].style.color = 'rgb(0, 0, 0)';
+    });
+});
+
+activeCategory = () => {
+    document.querySelectorAll(".sub-slider-categories span")[0].style.borderBottom = "2px solid rgb(40, 116, 240)";
+    document.querySelectorAll(".sub-slider-categories span")[0].style.color = "rgb(40, 116, 240)";
+    document.querySelectorAll(".sub-slider").forEach(element => {
+        element.style.display = "none";
+        document.querySelectorAll(".sub-slider")[0].style.display = "block";
+    });
+}
+
+document.querySelectorAll(".sub-slider-categories span").forEach(element => {
+    element.addEventListener('click', (e) => {
+        document.querySelectorAll(".sub-slider-categories span").forEach(element => {
+            element.style.borderBottom = "2px solid rgb(255, 255, 255)";
+            element.style.color = "rgb(0, 0, 0)";
+        });
+        e.target.style.borderBottom = "2px solid rgb(40, 116, 240)";
+        e.target.style.color = "rgb(40, 116, 240)";
+        let value;
+        if(e.target.innerHTML == "All Categories")
+            value = 0;
+        else if (e.target.innerHTML == "Media Players")
+            value = 1;
+        else if (e.target.innerHTML == "Mobile Cables")
+            value = 2;
+        else
+            value = 3;
+        document.querySelectorAll(".sub-slider").forEach(element => {
+            element.style.display = "none";
+            document.querySelectorAll(".sub-slider")[value].style.display = "block";
+        });
     });
 });
