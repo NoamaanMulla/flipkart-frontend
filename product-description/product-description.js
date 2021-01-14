@@ -69,3 +69,36 @@ document.querySelectorAll(".sub-slider-categories span").forEach(element => {
         });
     });
 });
+
+document.querySelectorAll(".vertical-nav i")[0].style.display = "none";
+
+document.querySelectorAll('.vertical-nav i').forEach(element => {
+    element.addEventListener('click', (e) => {
+        if(e.target.className == "fas fa-angle-up") {
+            document.querySelector('.product-preview-styles').style.transform = 'translateY(0rem)';
+            document.querySelectorAll(".vertical-nav i")[0].style.display = "none";
+            document.querySelectorAll(".vertical-nav i")[1].style.display = "block";
+        }
+        else {
+            document.querySelector('.product-preview-styles').style.transform = 'translateY(-16.5rem)';
+            document.querySelectorAll(".vertical-nav i")[1].style.display = "none";
+            document.querySelectorAll(".vertical-nav i")[0].style.display = "block";
+        }
+    });
+});
+
+document.querySelectorAll('.product-preview-styles img').forEach(element => {
+    element.addEventListener('mouseover', (e) => {
+        if(e.target == document.querySelectorAll('.product-preview-styles img')[1]) {
+            document.querySelector(".product-preview iframe").style.display = "inline-block";
+            document.querySelector('.product-preview img').style.display = "none";
+        }
+        else {
+            if(document.querySelector(".product-preview iframe").style.display == "inline-block") {
+                document.querySelector(".product-preview iframe").style.display = "none";
+            }
+            document.querySelector('.product-preview img').style.display = "block";
+            document.querySelector('.product-preview img').src = e.target.src;
+        }
+    });
+});
