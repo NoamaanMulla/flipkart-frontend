@@ -21,6 +21,7 @@
     border-left: 0;
     padding: 4px;
     background-color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .product-preview-styles > img:hover {border: 2px solid rgb(40, 116, 240);}
@@ -47,6 +48,7 @@
     text-align: center;
     background-color: white;
     padding: 5px 0px;
+    cursor: pointer;
 }
 
 .vertical-nav i:first-of-type {
@@ -81,6 +83,95 @@
 .product-and-options a:first-of-type {background-color: rgb(255, 159, 0);}
 
 .product-and-options a:last-of-type {background-color: rgb(251, 100, 27);}
+
+.product-details {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.product-details .product-datail-name p {
+    font-size: 20px;
+}
+
+.product-detail-rating-and-reviews > span {
+    margin: 10px 5px;
+    display: inline-block;
+}
+
+.product-detail-rating-and-reviews > span:nth-of-type(1) {
+    background-color: rgb(56, 142, 60);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.product-detail-rating-and-reviews > span:nth-of-type(2) {
+    color: rgb(135, 135, 135);
+    font-weight: 500;
+}
+
+.product-detail-rating-and-reviews span:nth-of-type(3) img {
+    height: 20px;
+    display: inline-block;
+    transform: translateY(5px);
+}
+
+.product-details-price-details > span {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(56, 142, 60);
+    margin: 0px;
+}
+
+.product-details-price-tag span:nth-of-type(1) {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.product-details-price-tag span:nth-of-type(3) {
+    font-weight: 500;
+    color: rgb(56, 142, 60);
+}
+
+.product-details-price-offers p {
+    font-weight: 500;
+    padding: 20px 0 10px;
+}
+
+.product-details-available-offers {
+    padding: 5px 0;
+}
+
+.product-details-available-offers i {
+    color: rgb(56, 142, 60);
+    padding-right: 5px;
+}
+
+.product-details-available-offers span:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-details-available-offers span:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.product-details-available-offers span:nth-of-type(3) {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.view-more p {
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: rgb(40, 116, 240);
+    cursor: pointer;
+    display: none;
+}
 
 article {
     background-color: rgb(255, 255, 255);

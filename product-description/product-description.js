@@ -102,3 +102,16 @@ document.querySelectorAll('.product-preview-styles img').forEach(element => {
         }
     });
 });
+
+if (document.querySelectorAll('.product-details-available-offers').length > 3) {
+    for (let index = 4; index < document.querySelectorAll('.product-details-available-offers').length; index++) {
+        document.querySelectorAll('.product-details-available-offers')[index].style.display = 'none';
+        document.querySelector('.view-more p').style.display = 'block';
+    }
+    document.querySelector('.view-more p').addEventListener('click', () => {
+        document.querySelectorAll('.product-details-available-offers').forEach(element => {
+            element.style.display = 'block';
+        });
+        document.querySelector('.view-more p').style.display = 'none';
+    });
+}
