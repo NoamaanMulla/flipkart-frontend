@@ -1,0 +1,292 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Roboto,Arial,sans-serif;
+    overflow: visible;
+}
+li{
+  list-style: none;
+}
+body{
+background-color: white;
+height: 100%;
+width: 100%;
+line-height: 1.4;
+}
+.flipkart{
+  margin-left: 135px;
+}
+.img{
+  margin-right: 10px;
+}
+.navbar{
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  position:sticky;  
+  background-color: #2874f0;
+  height: 56px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#searchid{
+  width: 520px;
+  height: 40px;
+  padding: 10px;
+}
+.search{
+  margin-top: -12px;
+}
+.fa{
+  background-color: #ffffff;
+  padding: 10px;
+  padding-bottom: 12px;
+  color: #2874f0;
+  cursor: pointer;
+}
+.btn{
+
+  margin-left: 290px;
+}
+.btn-1{
+  border: 2px solid green;
+  border: none;
+  border-radius: 2px;
+  height: 35px;
+  width: 140px;
+  background-color: white;
+  color: #2874f0;
+  cursor: pointer;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+.box{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+  height: 55px;
+  width: 55px;
+  width: 890px;
+  margin-left: 70px;
+  display: flex;
+  padding-top: 15px;
+  padding-left: 20px
+}
+.div{
+  display: flex;
+
+}
+.cart{
+  margin-right: 320px;
+}
+.loca{
+  height: 20px;
+  width: 18px;
+  margin-bottom: -4px;
+}
+.add_box{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+  padding: 2px;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: -12px;
+  margin-bottom: 4px;
+  margin-left: 52px;
+  display: flex;
+}
+.add_name{
+  display: flex;
+}
+.down_arrow{
+  margin: auto 0 auto auto;
+  padding-left: 165px;
+}
+.item{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+  height: 210px;
+  width: 890px;
+  margin-left: 70px;
+}
+.image{
+  position: relative;
+    height: 120px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.item{
+  display: flex;
+}
+
+.info{
+  margin-top: 20px;
+  margin-bottom: 90px;
+  line-height: 25px;
+  margin-left: 20px;
+}
+
+.assure{
+  height: 15px;
+    vertical-align: middle;
+    margin: 0 6px;
+}
+.dilv{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.rem{
+  margin-left: 30px;
+}
+.down{
+  margin-top: 20px;
+}
+#numid{
+  text-align: center;
+    width: 40px;
+    height: 25px;
+}
+.num{
+  margin-left: 25px;
+}
+#add_sub{
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+}
+.place{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
+  width: 890px;
+  height: 90px;
+  margin-left: 70px;
+}
+.order{
+  margin-left: 580px;
+  margin-top: 15px;
+  height: 60px;
+  width: 280px;
+  border-radius: 2px;
+  background-color:#fb641b;
+  border: none;
+  color: white;
+  font-weight: bold;cursor: pointer;
+}
+.order_info{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+    margin-left: 970px;
+    margin-right: 35px;
+    margin-top: -355px;
+    padding-bottom: 8px;
+}
+.price{
+  margin-top: 6px;
+}
+.save_price{
+  margin-top: 2px;
+}
+.detail{
+  margin-top: 11px;
+  padding-top: 0px;
+}
+.bill{
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-top: 2px solid #c2c2c2;
+  border-bottom: 2px solid #c2c2c2;
+  margin-left: 970px;
+  margin-right: 35px;
+  /* height: 265px; */
+  padding-left: 7px;
+}
+#billid{
+  display: table;
+  margin-top: 25px;
+  word-spacing: 225px;
+}
+.f{
+  text-align: center;
+}
+.saving{
+  text-align: center;
+  margin-left: 40px;
+}
+.super{
+  border: 2px solid #c2c2c2;
+  margin-left: 970px;
+  margin-right: 35px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+._elegible{
+  color: #878787;
+  font-weight: 500;
+  margin-top: 6px;
+}
+._truck{
+  height: 30px;
+  margin-left: 215px;
+}
+.arrow_1{
+  height: 10px;
+  -webkit-transform: rotate(180deg);
+  margin-left: 145px;
+}
+.browse{
+  text-decoration: none;
+  color: #878787;
+  font-size: small;
+  margin-top: 25px;
+}
+.store{
+  text-decoration: none;
+  color: #878787;
+}
+a{
+  text-decoration: none;
+}
+path{
+  fill :black
+}
+.footer{
+  font-size: 14px;
+  text-align: left;
+  display: inline-block;
+  color: #878787;
+  padding: 5px 0 5px 35px;
+  background: url(//img1a.flixcart.com/www/linchpin/fk-cp-zion/img/shield_b33c0c.svg) no-repeat 0 50%;
+  background-size: 25px 31px;
+  font-weight: 500;
+  margin-left: 975px;
+  margin-top: 10px;
+}
+hr{
+  margin-top: 40px;
+}
+.foot{
+font-size: small;
+color: gray;
+margin-top: 20px;
+display: flex;
+margin-left: 60px;
+margin-bottom: 40px;
+}
+.copy{
+  margin-left: 40px;
+}
+.help{
+  margin-left: 335px;
+}
