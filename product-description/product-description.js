@@ -115,3 +115,15 @@ if (document.querySelectorAll('.product-details-available-offers').length > 3) {
         document.querySelector('.view-more p').style.display = 'none';
     });
 }
+
+if (document.querySelectorAll('.product-detail-features-description-data').length > 2) {
+    for (let index = 2; index < document.querySelectorAll('.product-detail-features-description-data').length; index++) {
+        document.querySelectorAll('.product-detail-features-description-data')[index].style.display = 'none';
+    }
+    document.querySelector('.product-detail-features-description-show-all p').addEventListener('click', () => {
+        document.querySelectorAll('.product-detail-features-description-data').forEach(element => {
+            element.style.display = 'flex';
+        });
+        document.querySelector('.product-detail-features-description-show-all p').style.display = 'none';
+    });
+}

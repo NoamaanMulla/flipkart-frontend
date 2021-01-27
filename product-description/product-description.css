@@ -87,6 +87,7 @@
 .product-details {
     display: inline-block;
     margin-left: 25px;
+    width: 59%;
 }
 
 .product-details .product-datail-name p {
@@ -268,6 +269,62 @@
 .supercoin img {
     height: 6rem;
     margin: 15px 0;
+}
+
+.product-detail-more-info div:last-of-type .product-detail-info-data li {
+    list-style-type: none;
+    transform: translateX(-10px);
+    padding: 0;
+    width: 40rem;
+}
+
+.product-detail-features-description {
+    border: 1px solid rgb(240, 240, 240);
+    margin-top: 30px;    
+}
+
+.product-detail-features-description-data {
+    display: flex;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.product-detail-features-description-data:last-of-type {
+    border: 0;
+}
+
+.product-detail-features-description-head p {
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.product-detail-features-description-data-image img {
+    padding: 1.5rem;
+}
+
+.product-detail-features-description-data-image-context p:first-of-type {
+    padding: 1.5rem 0 1rem;
+    font-size: 22px;
+}
+
+.product-detail-features-description-data-image-context p:last-of-type {
+    font-size: 13px;
+    margin-right: 1rem;
+}
+
+.product-detail-features-description-data:nth-of-type(even) div {
+    margin-left: 2rem;
+}
+
+.product-detail-features-description-data:nth-of-type(even) p:last-of-type {
+    margin: 0;
+}
+
+.product-detail-features-description-show-all p {
+    cursor: pointer;
+    color: rgb(40, 116, 240);
+    padding: 1.5rem;
 }
 
 article {
