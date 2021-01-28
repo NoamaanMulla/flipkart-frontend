@@ -7,6 +7,10 @@ window.onload = () => {
     activeCategory();
 }
 
+window.onscroll = () => {
+    productScroller();
+}
+
 Item.forEach(element => {
     element.onclick = (e) => {
         let tgt = e.target;
@@ -126,4 +130,19 @@ if (document.querySelectorAll('.product-detail-features-description-data').lengt
         });
         document.querySelector('.product-detail-features-description-show-all p').style.display = 'none';
     });
+}
+
+productScroller = () => {
+    if(window.pageYOffset < 40) {
+        document.querySelector('.product-and-options').style.position = "absolute";
+        document.querySelector('.product-and-options').style.top = "110px"; 
+    }
+    else if(window.pageYOffset > 40 && window.pageYOffset < 2440) {
+        document.querySelector('.product-and-options').style.position = "fixed";
+        document.querySelector('.product-and-options').style.top = "65px";
+    }
+    else {
+        document.querySelector('.product-and-options').style.position = "absolute";
+        document.querySelector('.product-and-options').style.top = "2500px";
+    }
 }

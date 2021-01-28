@@ -80,13 +80,19 @@
     font-size: 17px;
 }
 
+.product-and-options {
+    position: absolute;
+    top: 110px;
+    background-color: rgb(255, 255, 255);
+}
+
 .product-and-options a:first-of-type {background-color: rgb(255, 159, 0);}
 
 .product-and-options a:last-of-type {background-color: rgb(251, 100, 27);}
 
 .product-details {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 34rem;
     width: 59%;
 }
 
@@ -280,16 +286,13 @@
 
 .product-detail-features-description {
     border: 1px solid rgb(240, 240, 240);
+    border-bottom: 0px;
     margin-top: 30px;    
 }
 
 .product-detail-features-description-data {
     display: flex;
     border-bottom: 1px solid rgb(240, 240, 240);
-}
-
-.product-detail-features-description-data:last-of-type {
-    border: 0;
 }
 
 .product-detail-features-description-head p {
@@ -325,6 +328,59 @@
     cursor: pointer;
     color: rgb(40, 116, 240);
     padding: 1.5rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.product-detail-specification-description {
+    border: 1px solid rgb(240, 240, 240);
+    border-bottom: 0px;
+    margin-top: 2rem;
+}
+
+.product-detail-specification-description-head p {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.product-detail-specification-description-data-head p {
+    padding: 1.5rem;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.product-detail-specification-description-data-context ul {
+    list-style-type: none;
+}
+
+.product-detail-specification-description-data-context-key {
+    display: inline-block;
+    width: 22%;
+    margin: 1.5rem;
+    margin-top: 0;
+}
+
+.product-detail-specification-description-data-context-key li {
+    font-size: 14px;
+    margin: 10px 0;
+    color: rgb(100, 100, 100);
+}
+
+.product-detail-specification-description-data-context-value {
+    display: inline-block;
+    margin: 1.5rem;
+    margin-top: 0;
+}
+
+.product-detail-specification-description-data-context-value li {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.product-detail-specification-description-data {
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
 
 article {
